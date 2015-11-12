@@ -8,11 +8,18 @@
   },
   "author": "Ben Elliott",
   "license": "ISC",
-  "dependencies" : {
-    "express"    : "~4.7.2",
-    "mongoose"   : "~3.6.2",
-    "morgan"     : "~1.2.2",
+  "dependencies": {
+    "express": "~4.7.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2",
     "body-parser": "~1.5.2",
     "method-override": "~2.1.2"
-    }
+  },
+  "devDependencies": {
+    "body-parser": "^1.5.2",
+    "express": "^4.7.4",
+    "method-override": "^2.1.3",
+    "mongoose": "^3.6.20",
+    "morgan": "^1.2.3"
+  }
 }
