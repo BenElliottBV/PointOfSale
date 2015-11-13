@@ -14,7 +14,6 @@ module.exports = function(app){
   });
 
   app.get("/api/products/:product_id",function(req,res){
-    //use mongoose to get all todos in the database
     Product.find({
       _id : req.params.product_id
     },function(err,product){
